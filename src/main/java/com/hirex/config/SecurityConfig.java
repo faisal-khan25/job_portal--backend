@@ -28,7 +28,7 @@ public class SecurityConfig {
 
     private final JwtFilter jwtFilter;
 
-    @Value("${cors.allowed.origins:https://job-portal-n43c.onrender.com}")
+    @Value("${cors.allowed.origins:https://job-portal-frontend-avtp.onrender.com}")
     private String allowedOrigin;
 
     public SecurityConfig(JwtFilter jwtFilter) {
